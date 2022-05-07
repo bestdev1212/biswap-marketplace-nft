@@ -17,8 +17,8 @@ contract BiswapNFT is Initializable, ERC721EnumerableUpgradeable, AccessControlU
     uint private _initialRobiBoost;
     uint private _burnRBPeriod; //in days
     uint8 private _levelUpPercent; //in percents
-    uint[7] private _rbTable;
     uint[7] private _levelTable;
+    uint[7] private _rbTable;    
     uint private _lastTokenId;
 
     struct Token {
